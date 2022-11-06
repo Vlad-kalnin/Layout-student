@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bona+Nova:wght@400;700&family=Charm:wght@700&display=swap');
+body{
+    font-family: 'Zen Antique Soft';
+    background: rgb(236, 235, 235);
+    font-size: 15px;
+    color: rgb(87, 75, 190);
+    
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    padding-left: 50px;
+}
+header h1{
+    text-align: center;
+}
+.avatar{
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px rgb(92, 91, 91);
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+    margin: 50px 15px 30px 0;
+}
+.info-text{
+    margin-left: 50px;
+    font-style: italic;
+    opacity: 0.7;
+}
+.info-text h3{
+    margin: 0;
+    color: black;
+}
+.info-text p{
+    margin:5px;
+    font-weight: bold;
+}
+.card{
+   border-radius: 20px;
+   padding: 10px 15px;
+   margin: 0 0 15px;
+   font-size: 20px;
+}
+.card h2{
+    text-align: center;
+}
+.bg-green{
+    background: #a9f5ac;
+    color: rgb(0, 0, 0);
+    
+}
+.bg-violet{
+    background: #f0d7fc;
+}
+.table{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.table td{
+    border: 1px solid black;
+}
+.table td:nth-child(2), .table td:nth-child(4), .table td:nth-child(6) {
+    background: #ddd789;
+}
